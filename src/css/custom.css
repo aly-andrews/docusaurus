@@ -1,0 +1,72 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary color - based on button background purple */
+  --ifm-color-primary: #6A4C93;
+  --ifm-color-primary-dark: #5a3f7d;
+  --ifm-color-primary-darker: #4f3770;
+  --ifm-color-primary-darkest: #3d2a57;
+  --ifm-color-primary-light: #7a5ca3;
+  --ifm-color-primary-lighter: #8a6cb3;
+  --ifm-color-primary-lightest: #9a7cc3;
+  
+  /* Background colors */
+  --ifm-background-color: #F5F0FF;
+  --ifm-background-surface-color: #FFFFFF;
+  
+  /* Text colors */
+  --ifm-font-color-base: #4B2E83;
+  --ifm-heading-color: #4B2E83;
+  --ifm-color-content: #4B2E83;
+  --ifm-color-content-secondary: #6A4C93;
+  
+  /* Accent color (pink) */
+  --ifm-color-secondary: #FF69B4;
+  
+  /* Button colors */
+  --ifm-button-background-color: #6A4C93;
+  --ifm-button-color: #FFFFFF;
+  
+  /* Chat bubble colors (for code blocks or callouts) */
+  --ifm-alert-background-color: #F0F0F0;
+  --ifm-alert-color: #333333;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #8a6cb3;
+  --ifm-color-primary-dark: #7a5ca3;
+  --ifm-color-primary-darker: #6A4C93;
+  --ifm-color-primary-darkest: #5a3f7d;
+  --ifm-color-primary-light: #9a7cc3;
+  --ifm-color-primary-lighter: #aa8cd3;
+  --ifm-color-primary-lightest: #ba9ce3;
+  
+  /* Dark mode background - slightly darker version of light purple */
+  --ifm-background-color: #1a0d2e;
+  --ifm-background-surface-color: #2d1a4d;
+  
+  /* Dark mode text - lighter for contrast */
+  --ifm-font-color-base: #e0d0f0;
+  --ifm-heading-color: #f5f0ff;
+  --ifm-color-content: #e0d0f0;
+  --ifm-color-content-secondary: #c0a0e0;
+  
+  --ifm-color-secondary: #FF69B4;
+  
+  --ifm-button-background-color: #6A4C93;
+  --ifm-button-color: #FFFFFF;
+  
+  --ifm-alert-background-color: #2d1a4d;
+  --ifm-alert-color: #e0d0f0;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
