@@ -7,6 +7,27 @@
 
 ---
 
+## Documentation Workflow
+
+The following diagram illustrates the documentation process for this release:
+
+```mermaid
+flowchart TD
+    A[Product Release] --> B[Documentation Planning]
+    B --> C[External Help Center]
+    B --> D[Internal Knowledge Base]
+    C --> E[Merchant Guides]
+    C --> F[Support Articles]
+    D --> G[Support Playbooks]
+    D --> H[Technical Docs]
+    E --> I[Published Content]
+    F --> I
+    G --> I
+    H --> I
+```
+
+---
+
 ## External Documentation (Help Center)
 
 **Style Guide:** All external Help Center documentation follows the **Help Center Style Guide** - task-focused, straight-to-the-point how-to guides. Content should be direct, action-oriented, and minimal. Focus on "how" not "why."

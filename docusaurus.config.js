@@ -97,6 +97,12 @@ const config = {
             label: 'Contact',
           },
           {
+            type: 'doc',
+            docId: 'Skio/product-release',
+            position: 'left',
+            label: 'Skio',
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
