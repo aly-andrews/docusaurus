@@ -42,29 +42,29 @@ Before you set up shipping profiles, ensure you have:
 
 You can create separate shipping profiles for each selling plan group or assign multiple selling plan groups to a single shipping profile. For example, you could set up a general shipping profile for all subscription products or a free shipping profile specifically for Build a Box subscriptions.
 
-From your Skio dashboard, go to **Settings**.
+1. From your Skio dashboard, go to **Settings**.
 
-Under the **Billing & Orders** section, click **Shipping**.
+2. Under the **Billing & Orders** section, click **Shipping**.
 
-Click the **+ Create new profile** button.
+3. Click the **+ Create new profile** button.
 
-Enter a name for your shipping profile in the **Shipping profile name** field. For example, "Subscription Free Shipping" or "Build a Box Shipping".
+4. Enter a name for your shipping profile in the **Shipping profile name** field. For example, "Subscription Free Shipping" or "Build a Box Shipping".
 
-Under the **Selling plans included** section, search for the selling plans you want to assign to this profile.
+5. Under the **Selling plans included** section, search for the selling plans you want to assign to this profile.
 
-Select the checkbox next to the relevant plans. A warning appears if the selected plan is already part of another shipping profile. Confirm to move it to the new profile.
+6. Select the checkbox next to the relevant plans. A warning appears if the selected plan is already part of another shipping profile. Confirm to move it to the new profile.
 
-Click the **Create profile** button to save your changes.
+7. Click the **Create profile** button to save your changes.
 
 ### Duplicate Shopify shipping profiles
 
 You can duplicate an existing Shopify shipping profile to copy its zones and rates to your Skio shipping profile. This is useful if you want to recreate a shipping profile for a different product or selling plan group with similar settings.
 
-Find the **Select a source shipping profile from Shopify** section.
+1. Find the **Select a source shipping profile from Shopify** section.
 
-Choose an existing Shopify shipping profile to duplicate its zones and rates.
+2. Choose an existing Shopify shipping profile to duplicate its zones and rates.
 
-If you want to enable free shipping rates for this profile, select the free shipping option.
+3. If you want to enable free shipping rates for this profile, select the free shipping option.
 
 **Note:** To edit shipping zones and rates after duplicating, you must do so in Shopify. Learn more about [editing shipping profiles in Shopify](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/setting-up-shipping-profiles).
 
@@ -72,15 +72,15 @@ If you want to enable free shipping rates for this profile, select the free ship
 
 You can edit any shipping profile to update its settings or assigned selling plans.
 
-From your Skio dashboard, go to **Settings**.
+1. From your Skio dashboard, go to **Settings**.
 
-Under the **Billing & Orders** section, click **Shipping**.
+2. Under the **Billing & Orders** section, click **Shipping**.
 
-Click a shipping profile that you want to edit.
+3. Click a shipping profile that you want to edit.
 
-Make any adjustments to your shipping profile.
+4. Make any adjustments to your shipping profile.
 
-Click the **Save** button.
+5. Click the **Save** button.
 
 **Note:** To edit shipping zones and rates, you must do so in Shopify. Go to **Settings > Shipping and Delivery** in your Shopify admin, then click **View Profile** to access your Skio shipping profiles.
 
@@ -88,13 +88,13 @@ Click the **Save** button.
 
 You can delete a custom shipping profile, but you cannot delete the general shipping profile.
 
-From your Skio dashboard, go to **Settings**.
+1. From your Skio dashboard, go to **Settings**.
 
-Under the **Billing & Orders** section, click **Shipping**.
+2. Under the **Billing & Orders** section, click **Shipping**.
 
-Click a custom shipping profile that you want to delete.
+3. Click a custom shipping profile that you want to delete.
 
-Click the **Delete profile** button, then click **Delete profile** again to confirm.
+4. Click the **Delete profile** button, then click **Delete profile** again to confirm.
 
 ## Next steps
 

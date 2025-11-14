@@ -296,10 +296,11 @@ article {
   display: block;
 }
 
-/* Tip admonition styling - pop-out box */
+/* Tip admonition styling - pop-out box with purple outline */
 .admonition.admonition-tip {
-  background-color: #F5F0FF;
-  border-left: 4px solid var(--skio-dark-purple);
+  background-color: #FFFFFF !important;
+  border: 2px solid var(--skio-dark-purple) !important;
+  border-left: 4px solid var(--skio-dark-purple) !important;
   border-radius: 8px;
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
@@ -307,13 +308,17 @@ article {
 }
 
 .admonition.admonition-tip .admonition-heading {
-  color: var(--skio-dark-purple);
+  color: var(--skio-dark-purple) !important;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
+.admonition.admonition-tip .admonition-icon {
+  color: var(--skio-dark-purple) !important;
+}
+
 .admonition.admonition-tip .admonition-content {
-  color: #333333;
+  color: #333333 !important;
 }
 
 /* Sidebar category styling */
