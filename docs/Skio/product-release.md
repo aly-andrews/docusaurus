@@ -9,6 +9,8 @@
 
 ## Introduction
 
+### Purpose of document
+
 This document outlines the complete documentation plan for Skio's Shopify POS integration release. This integration enables the Skio subscriptions app to work with Shopify POS, allowing merchants to sell subscriptions in person through their POS systems. This plan identifies all external Skio Help Center documentation and internal knowledge base content needed to support this feature launch.
 
 The document is designed for technical writers, documentation managers, support leads and product teams who need to understand what content must be created, updated or maintained to successfully launch and support POS subscription functionality. All documentation will follow Skio's established style guides and content standards.
@@ -24,7 +26,9 @@ The document is designed for technical writers, documentation managers, support 
 
 ## User persona
 
-This section provides a representative merchant use case to illustrate how the Skio subscriptions app integration with Shopify POS will be used in practice.
+### Who we're building for
+
+#### Representative merchant use case
 
 **Aly Anne Photography** is a small photography business based in Ottawa, Ontario, operating both online and through a local studio with Shopify POS. The business offers photography services for weddings, events and portraits, with a focus on building recurring revenue through subscription offerings. 
 
@@ -89,43 +93,6 @@ All external Skio Help Center documentation follows Skio's **Help Center Style G
 | POS subscription data sync and reconciliation | Technical support, operations team | Guide for understanding and troubleshooting data sync | Lower |
 | POS subscription monitoring and alerts | Operations team, technical support | Guide for monitoring POS subscription health | Lower |
 | POS subscription release notes and known issues | All internal teams | Centralized information about POS subscription release | Medium |
-
----
-
-## Complete documentation inventory
-
-| Document | Audience | Purpose | Type | Owner | Priority |
-|----------|----------|---------|------|-------|----------|
-| **External - Skio Help Center** |
-| Selling subscriptions in person with Shopify POS | Merchant admins | Overview and introduction to POS subscriptions | New | Technical Writer | Must-have |
-| Setting up subscriptions for POS sales | Merchant admins | Configuration guide | New | Technical Writer | Must-have |
-| Processing subscription sales at checkout | Merchant staff, cashiers | Operational guide for in-store staff | New | Technical Writer | Must-have |
-| Managing subscriptions created through POS | Merchant admins | Management workflow guide | New | Technical Writer | High |
-| POS subscription features and limitations | Merchant admins, support | Reference for capabilities | New | Technical Writer | Medium |
-| Subscription product requirements for POS | Merchant admins | Technical requirements guide | New | Technical Writer | Medium |
-| Troubleshooting POS subscription issues | Merchant admins, support | Problem resolution guide | New | Technical Writer | High |
-| Setting up subscriptions in Skio | Merchant admins | Add POS setup information | Update | Technical Writer | High |
-| Managing subscription products | Merchant admins | Add POS product guidance | Update | Technical Writer | High |
-| Connecting Shopify POS to your store | Merchant admins, technical | Include Skio subscription steps | Update | Technical Writer | Medium |
-| Managing customer subscriptions | Merchant admins, support | Add POS customer record info | Update | Technical Writer | High |
-| Common subscription issues and solutions | Merchant admins, support | Add POS troubleshooting | Update | Technical Writer | High |
-| **Internal - Knowledge Base** |
-| POS subscription support playbook | Customer support agents | Support workflow guide | New | Support Lead | Must-have |
-| POS subscription error codes and solutions | Customer support, technical | Error reference guide | New | Support Lead | Must-have |
-| Training guide: Supporting POS subscriptions | New support agents | Training material | New | Training Lead | High |
-| Handling subscription support requests | Customer support agents | Add POS support scenarios | Update | Support Lead | High |
-| Subscription billing and payment troubleshooting | Support, billing team | Add POS payment info | Update | Support Lead | High |
-| POS subscription technical architecture | Developers, technical support | Technical system documentation | New | Engineering | Medium |
-| POS subscription data sync and reconciliation | Technical support, operations | Sync troubleshooting guide | New | Engineering | Lower |
-| Skio API documentation | Developers, technical support | Add POS API endpoints | Update | Engineering | Medium |
-| POS subscription monitoring and alerts | Operations team | Monitoring guide | New | Operations | Lower |
-| POS subscription release notes and known issues | All internal teams | Release information | New | Product/Engineering | Medium |
-
-**Priority definitions:**
-- **Must-have:** Required for launch
-- **High:** Within 2 weeks post-launch
-- **Medium:** Within 1 month post-launch
-- **Lower:** Ongoing
 
 ---
 
