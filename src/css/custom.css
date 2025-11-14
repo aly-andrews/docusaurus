@@ -65,6 +65,9 @@
   --ifm-color-info: #4B2E83;
   --ifm-color-info-contrast-background: #FFFFFF;
   --ifm-color-info-contrast-foreground: #4B2E83;
+  --ifm-color-success: #4B2E83;
+  --ifm-color-success-contrast-background: #FFFFFF;
+  --ifm-color-success-contrast-foreground: #4B2E83;
 }
 
 /* Dark mode - keeping similar but adjusted */
@@ -305,13 +308,18 @@ article {
 }
 
 /* Tip admonition styling - pop-out box with purple outline */
+/* Override all possible tip admonition classes with purple outline */
 
 .admonition.admonition-tip,
 .admonition--tip,
-div[class*="admonition"][class*="tip"] {
+div[class*="admonition"][class*="tip"],
+.admonition[class*="tip"],
+.theme-admonition-admonition-tip {
   background-color: #FFFFFF !important;
-  border: 2px solid var(--skio-dark-purple) !important;
-  border-left: 4px solid var(--skio-dark-purple) !important;
+  background: #FFFFFF !important;
+  border: 2px solid #4B2E83 !important;
+  border-left: 4px solid #4B2E83 !important;
+  border-color: #4B2E83 !important;
   border-radius: 8px;
   padding: 1rem 1.5rem !important;
   margin: 1.5rem 0;
@@ -320,8 +328,10 @@ div[class*="admonition"][class*="tip"] {
 
 .admonition.admonition-tip .admonition-heading,
 .admonition--tip .admonition-heading,
-div[class*="admonition"][class*="tip"] .admonition-heading {
-  color: var(--skio-dark-purple) !important;
+div[class*="admonition"][class*="tip"] .admonition-heading,
+.admonition[class*="tip"] .admonition-heading,
+.theme-admonition-admonition-tip .admonition-heading {
+  color: #4B2E83 !important;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -330,32 +340,34 @@ div[class*="admonition"][class*="tip"] .admonition-heading {
 .admonition--tip .admonition-icon svg,
 .admonition.admonition-tip svg,
 .admonition--tip svg,
-div[class*="admonition"][class*="tip"] svg {
-  color: var(--skio-dark-purple) !important;
-  fill: var(--skio-dark-purple) !important;
-  stroke: var(--skio-dark-purple) !important;
+div[class*="admonition"][class*="tip"] svg,
+.admonition[class*="tip"] svg,
+.theme-admonition-admonition-tip svg,
+.admonition.admonition-tip .admonition-icon,
+.admonition--tip .admonition-icon {
+  color: #4B2E83 !important;
+  fill: #4B2E83 !important;
+  stroke: #4B2E83 !important;
 }
 
 .admonition.admonition-tip .admonition-content,
 .admonition--tip .admonition-content,
-div[class*="admonition"][class*="tip"] .admonition-content {
+div[class*="admonition"][class*="tip"] .admonition-content,
+.admonition[class*="tip"] .admonition-content,
+.theme-admonition-admonition-tip .admonition-content {
   color: #333333 !important;
 }
 
-/* Override any default green/teal colors from Infima */
+/* Override any default green/teal colors from Infima - use direct color values */
 .admonition.admonition-tip[class*="success"],
 .admonition--tip[class*="success"],
-div[class*="admonition"][class*="tip"] {
+div[class*="admonition"][class*="tip"],
+.admonition[class*="tip"] {
   background-color: #FFFFFF !important;
-  border-color: var(--skio-dark-purple) !important;
-}
-
-/* Target the actual rendered classes */
-.theme-admonition-admonition-tip,
-.theme-admonition-admonition-tip .admonition {
-  background-color: #FFFFFF !important;
-  border: 2px solid var(--skio-dark-purple) !important;
-  border-left: 4px solid var(--skio-dark-purple) !important;
+  background: #FFFFFF !important;
+  border-color: #4B2E83 !important;
+  border: 2px solid #4B2E83 !important;
+  border-left: 4px solid #4B2E83 !important;
 }
 
 /* Sidebar category styling */
