@@ -297,28 +297,63 @@ article {
 }
 
 /* Tip admonition styling - pop-out box with purple outline */
-.admonition.admonition-tip {
+/* Override Infima default tip colors */
+:root {
+  --ifm-alert-background-color: #FFFFFF;
+  --ifm-alert-border-color: var(--skio-dark-purple);
+  --ifm-alert-color: #333333;
+}
+
+.admonition.admonition-tip,
+.admonition--tip,
+div[class*="admonition"][class*="tip"] {
   background-color: #FFFFFF !important;
   border: 2px solid var(--skio-dark-purple) !important;
   border-left: 4px solid var(--skio-dark-purple) !important;
   border-radius: 8px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem !important;
   margin: 1.5rem 0;
   box-shadow: 0 2px 8px rgba(75, 46, 131, 0.1);
 }
 
-.admonition.admonition-tip .admonition-heading {
+.admonition.admonition-tip .admonition-heading,
+.admonition--tip .admonition-heading,
+div[class*="admonition"][class*="tip"] .admonition-heading {
   color: var(--skio-dark-purple) !important;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
-.admonition.admonition-tip .admonition-icon {
+.admonition.admonition-tip .admonition-icon svg,
+.admonition--tip .admonition-icon svg,
+.admonition.admonition-tip svg,
+.admonition--tip svg,
+div[class*="admonition"][class*="tip"] svg {
   color: var(--skio-dark-purple) !important;
+  fill: var(--skio-dark-purple) !important;
+  stroke: var(--skio-dark-purple) !important;
 }
 
-.admonition.admonition-tip .admonition-content {
+.admonition.admonition-tip .admonition-content,
+.admonition--tip .admonition-content,
+div[class*="admonition"][class*="tip"] .admonition-content {
   color: #333333 !important;
+}
+
+/* Override any default green/teal colors from Infima */
+.admonition.admonition-tip[class*="success"],
+.admonition--tip[class*="success"],
+div[class*="admonition"][class*="tip"] {
+  background-color: #FFFFFF !important;
+  border-color: var(--skio-dark-purple) !important;
+}
+
+/* Target the actual rendered classes */
+.theme-admonition-admonition-tip,
+.theme-admonition-admonition-tip .admonition {
+  background-color: #FFFFFF !important;
+  border: 2px solid var(--skio-dark-purple) !important;
+  border-left: 4px solid var(--skio-dark-purple) !important;
 }
 
 /* Sidebar category styling */
