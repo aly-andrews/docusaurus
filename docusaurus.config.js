@@ -20,9 +20,9 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://alyandrews.github.io',
+  url: 'https://aly-andrews.github.io',
   baseUrl: '/docusaurus/',
-  organizationName: 'alyandrews',
+  organizationName: 'aly-andrews',
   projectName: 'docusaurus',
 
   onBrokenLinks: 'throw',
