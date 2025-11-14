@@ -370,6 +370,23 @@ div[class*="admonition"][class*="tip"],
   border-left: 4px solid #4B2E83 !important;
 }
 
+/* Nuclear option - target any element that might be a tip */
+[class*="tip"][class*="admonition"],
+[class*="admonition"][class*="tip"] {
+  background-color: #FFFFFF !important;
+  background: #FFFFFF !important;
+  border-color: #4B2E83 !important;
+  border: 2px solid #4B2E83 !important;
+  border-left: 4px solid #4B2E83 !important;
+}
+
+/* Override any success/info colors that might be applied to tips */
+.admonition.admonition-tip.admonition--success,
+.admonition.admonition-tip.admonition--info {
+  background-color: #FFFFFF !important;
+  border-color: #4B2E83 !important;
+}
+
 /* Sidebar category styling */
 .menu__list-item-collapsible {
   color: #333333;
