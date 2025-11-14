@@ -221,6 +221,8 @@ table td {
 /* Content area spacing */
 .markdown {
   color: #333333;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Metadata styling */
@@ -272,9 +274,26 @@ table td {
   border: 1px solid var(--skio-light-purple);
 }
 
-/* Improve readability */
+/* Improve readability - constrain content width for better reading */
 article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Main content container */
+.theme-doc-markdown {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Video thumbnail styling */
+.markdown img {
   max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  display: block;
 }
 
 /* Sidebar category styling */

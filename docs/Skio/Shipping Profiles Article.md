@@ -1,8 +1,10 @@
 # Setting up and managing shipping profiles
 
-A **shipping profile** is a set of shipping rules for specific products and locations. With the latest updates, Skio now allows you to create multiple shipping profiles tailored to specific selling plan groups. Previously, merchants could only create one shipping profile, which would assign all subscription products to it by default. This new feature introduces greater flexibility and automation, making it easier to manage shipping across different subscription offerings.
+A **shipping profile** is a set of shipping rules for specific products and locations. With the latest updates, Skio now allows you to create multiple shipping profiles tailored to specific selling plan groups. Previously, merchants could only create one shipping profile, which would assign all subscription products to it by default.
 
 **Video placeholder:** [How to set up a shipping profile in Skio]
+
+![Video thumbnail: How to set up a shipping profile in Skio](https://via.placeholder.com/800x450/4B2E83/FFFFFF?text=How+to+set+up+a+shipping+profile+in+Skio)
 
 **Tip**  
 To see more videos, visit our YouTube channel.
