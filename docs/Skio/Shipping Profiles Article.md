@@ -1,6 +1,6 @@
 # Setting up and managing shipping profiles
 
-A **shipping profile** is a set of shipping rules for specific products and locations. With the latest updates, Skio now allows you to create multiple shipping profiles tailored to specific selling plan groups. Previously, merchants could only create one shipping profile, which would assign all subscription products to it by default.
+A **shipping profile** is a set of shipping rules for specific products and locations. Skio allows you to create multiple shipping profiles tailored to specific selling plan groups, giving you flexibility to assign different shipping policies to different subscription types.
 
 **Video placeholder:** [How to set up a shipping profile in Skio]
 
@@ -10,112 +10,96 @@ A **shipping profile** is a set of shipping rules for specific products and loca
 To see more videos, visit our YouTube channel.
 
 **On this page**
-- [Considerations for setting up shipping profiles](#considerations-for-setting-up-shipping-profiles)
+- [What is a shipping profile?](#what-is-a-shipping-profile)
+- [Key benefits](#key-benefits)
+- [Prerequisites](#prerequisites)
 - [Set up your shipping profile](#set-up-your-shipping-profile)
-- [Create a custom shipping profile](#create-a-custom-shipping-profile)
-- [Configure shipping settings](#configure-shipping-settings)
 - [Edit a shipping profile](#edit-a-shipping-profile)
 - [Delete a custom shipping profile](#delete-a-custom-shipping-profile)
 - [Next steps](#next-steps)
 
-## Considerations for setting up shipping profiles
+## What is a shipping profile?
 
-Before you set up your shipping profiles, review the following considerations:
+A shipping profile defines shipping rules for specific products and locations. In Skio, shipping profiles work alongside Shopify shipping profiles to manage shipping rates for your subscription products. You create shipping profiles in Skio and assign them to selling plan groups, while shipping zones and rates are managed in Shopify.
 
-- Each shipping profile can be assigned to specific selling plan groups or multiple selling plan groups can be assigned to a single shipping profile.
-- New products added to a selling plan group automatically update the associated shipping profile, reducing manual effort.
-- When a new selling plan group is created, you must select the shipping profile you want to assign to it.
-- You can duplicate an existing Shopify shipping profile to copy its zones and rates to your Skio shipping profile.
-- All shipping profile updates must be made directly in Shopify. To access Skio-specific shipping profiles, go to **Settings > Shipping and Delivery > View Profile** in your Shopify admin.
+**Shopify shipping profiles** control shipping zones and rates for your products. **Skio shipping profiles** assign those Shopify shipping profiles to specific selling plan groups, allowing you to apply different shipping policies to different subscription types.
+
+## Key benefits
+
+**Flexibility:** Assign different shipping policies to various selling plan groups. For example, offer free shipping for specific subscription types while using default Shopify rates for others.
+
+**Automation:** Products added to a selling plan group automatically update the associated shipping profile, reducing manual effort.
+
+**Tailored control:** Each selling plan group requires a designated shipping profile upon creation, ensuring precision in shipping management.
+
+## Prerequisites
+
+Before you set up shipping profiles, ensure you have:
+
+- Created selling plan groups in Skio. If your search bar comes up blank when selecting selling plans, you need to create selling plan groups first.
+- Set up shipping zones and rates in Shopify. Learn more about [managing shipping in Shopify](https://help.shopify.com/en/manual/shipping).
 
 ## Set up your shipping profile
 
 You can create separate shipping profiles for each selling plan group or assign multiple selling plan groups to a single shipping profile. For example, you could set up a general shipping profile for all subscription products or a free shipping profile specifically for Build a Box subscriptions.
 
-1. From your Skio dashboard, go to **Settings**.
+From your Skio dashboard, go to **Settings**.
 
-2. Under the **Billing & Orders** section, click **Shipping**.
+Under the **Billing & Orders** section, click **Shipping**.
 
-3. On the Shipping page, click **+ Create new profile** in the top-right corner.
+Click the **+ Create new profile** button.
 
-4. Enter a name for your shipping profile in the **Shipping profile name** field. For example, "Subscription Free Shipping" or "Build a Box Shipping".
+Enter a name for your shipping profile in the **Shipping profile name** field. For example, "Subscription Free Shipping" or "Build a Box Shipping".
 
-5. Under the **Selling plans included** section, search for the selling plans you want to assign to this profile.
+Under the **Selling plans included** section, search for the selling plans you want to assign to this profile.
 
-6. Select the checkbox next to the relevant plans. A warning appears if the selected plan is already part of another shipping profile. Confirm to move it to the new profile.
+Select the checkbox next to the relevant plans. A warning appears if the selected plan is already part of another shipping profile. Confirm to move it to the new profile.
 
-7. Click **Create profile** to save your changes.
+Click the **Create profile** button to save your changes.
 
 ### Duplicate Shopify shipping profiles
 
-You can duplicate an existing Shopify shipping profile to copy its zones and rates to your Skio shipping profile.
+You can duplicate an existing Shopify shipping profile to copy its zones and rates to your Skio shipping profile. This is useful if you want to recreate a shipping profile for a different product or selling plan group with similar settings.
 
-1. Scroll down to the **Select a source shipping profile from Shopify** section.
+Find the **Select a source shipping profile from Shopify** section.
 
-2. Choose an existing Shopify shipping profile to duplicate its zones and rates.
+Choose an existing Shopify shipping profile to duplicate its zones and rates.
 
-3. If you want to enable free shipping rates for this profile, then select the free shipping option.
+If you want to enable free shipping rates for this profile, select the free shipping option.
 
-## Create a custom shipping profile
-
-You can create custom shipping profiles for specific subscription types or selling plan groups.
-
-1. From your Skio dashboard, go to **Settings**.
-
-2. Under the **Billing & Orders** section, click **Shipping**.
-
-3. Click **+ Create new profile**.
-
-4. Enter a name for your custom shipping profile.
-
-5. Under the **Selling plans included** section, search for and select the selling plans you want to assign to this profile.
-
-6. Configure the shipping settings for this profile.
-
-## Configure shipping settings
-
-You can adjust shipping settings to control how shipping is calculated and updated for your subscription orders.
-
-In the **Shipping settings** section, adjust the following settings based on your preferences:
-
-- **Update shipping if subscription changes**: Automatically recalculate shipping if a subscription is updated in Shopify.
-- **Recurring free shipping override**: Guarantee free shipping for all subscription orders after checkout.
-- **Exclude lines from shipping price calculation**: Prevent certain subscription items from impacting shipping prices.
-- **Exclude out-of-stock items in shipping price calculation**: Ensure out-of-stock items do not affect shipping price calculations.
-
-1. Click **Save changes** to finalize your shipping profile settings.
-
-2. If necessary, click **Resync shipping** at the top-right to manually apply updates.
+**Note:** To edit shipping zones and rates after duplicating, you must do so in Shopify. Learn more about [editing shipping profiles in Shopify](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/setting-up-shipping-profiles).
 
 ## Edit a shipping profile
 
 You can edit any shipping profile to update its settings or assigned selling plans.
 
-1. From your Skio dashboard, go to **Settings**.
+From your Skio dashboard, go to **Settings**.
 
-2. Under the **Billing & Orders** section, click **Shipping**.
+Under the **Billing & Orders** section, click **Shipping**.
 
-3. In the **Shipping** section, click a shipping profile that you want to edit.
+Click a shipping profile that you want to edit.
 
-4. Make any adjustments to your shipping profile.
+Make any adjustments to your shipping profile.
 
-5. Click **Save**.
+Click the **Save** button.
+
+**Note:** To edit shipping zones and rates, you must do so in Shopify. Go to **Settings > Shipping and Delivery** in your Shopify admin, then click **View Profile** to access your Skio shipping profiles.
 
 ## Delete a custom shipping profile
 
 You can delete a custom shipping profile, but you cannot delete the general shipping profile.
 
-1. From your Skio dashboard, go to **Settings**.
+From your Skio dashboard, go to **Settings**.
 
-2. Under the **Billing & Orders** section, click **Shipping**.
+Under the **Billing & Orders** section, click **Shipping**.
 
-3. In the **Shipping** section, click a custom shipping profile that you want to delete.
+Click a custom shipping profile that you want to delete.
 
-4. Click **Delete profile**, and then click **Delete profile** to confirm.
+Click the **Delete profile** button, then click **Delete profile** again to confirm.
 
 ## Next steps
 
-After you set up your shipping profiles, you can manage them from your Shopify admin. If you want to update shipping settings or create additional profiles, then go to **Settings > Shipping** in your Skio dashboard.
+After you set up your shipping profiles, you can manage shipping zones and rates from your Shopify admin. To update shipping settings or create additional profiles, go to **Settings > Shipping** in your Skio dashboard.
 
 Leave feedback
 Ask about this article
