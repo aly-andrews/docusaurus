@@ -3,7 +3,7 @@
 
 **Prepared by:** Alysa Andrews, Technical Content Writer  
 **Prepared for:** Katrina Feliciano, Technical Content Writer  
-**Last updated:** [Date TBD]
+**Last updated:** November, 15 2025
 
 ---
 
@@ -27,9 +27,6 @@ The document is designed for technical writers, documentation managers, support 
 ## User persona
 
 ### Who we're building for
-
-#### Representative merchant use case
-
 **Aly Anne Photography** is a small photography business based in Ottawa, Ontario, operating both online and through a local studio with Shopify POS. The business offers photography services for weddings, events and portraits, with a focus on building recurring revenue through subscription offerings. 
 
 With the new Skio integration for Shopify POS, Aly can now sell subscription packages directly to clients during in-person consultations at her studio. For example, she can offer mini session subscriptions where clients commit to monthly portrait sessions, or monthly print subscriptions where customers receive curated prints each month. 
