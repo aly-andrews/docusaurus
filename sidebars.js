@@ -22,7 +22,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Skio',
-      items: ['Skio/product-release'],
+      items: [
+        'Skio/product-release',
+        'Skio/Shipping Profiles Article',
+      ],
     },
   ],
 };
