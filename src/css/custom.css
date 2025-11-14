@@ -163,6 +163,19 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--skio-dark-purple);
 }
 
+/* Subtitle headers - smaller and dark grey */
+h3 {
+  color: #666666;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h4 {
+  color: #666666;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
 /* Links in content */
 a {
   color: var(--skio-dark-purple);
