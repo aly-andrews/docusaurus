@@ -20,32 +20,6 @@ The project demonstrates proficiency in:
 - GitHub Pages deployment
 - Version control with Git
 
-### Mermaid Diagram Integration
-
-Mermaid diagrams are integrated into this site to visualize workflows and processes. The installation and configuration process involved:
-
-**Installation:**
-```bash
-npm install @docusaurus/theme-mermaid
-```
-
-**Configuration:**
-The Mermaid theme was added to `docusaurus.config.js`:
-```javascript
-themes: ['@docusaurus/theme-mermaid'],
-```
-
-**Usage:**
-Mermaid diagrams can be embedded in markdown files using code blocks with the `mermaid` language identifier:
-````markdown
-```mermaid
-flowchart TD
-    A[Start] --> B[End]
-```
-````
-
-This integration enables the creation of flowcharts, sequence diagrams, and other visual documentation directly within markdown content.
-
 ### Skio Writing Assignment Submission
 
 This microsite also serves as the submission platform for a **technical writing assignment for Skio**, featuring:

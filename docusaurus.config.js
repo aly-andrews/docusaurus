@@ -46,6 +46,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [],
+          rehypePlugins: [],
         },
         blog: {
           showReadingTime: true,
@@ -83,6 +85,7 @@ const config = {
           alt: 'Aly Andrews Logo',
           src: 'img/aly anne.png',
         },
+        style: 'dark',
         items: [
           {
             type: 'doc',
@@ -101,6 +104,10 @@ const config = {
             docId: 'Skio/product-release',
             position: 'left',
             label: 'Skio',
+          },
+          {
+            type: 'search',
+            position: 'right',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -157,6 +164,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      mermaid: {
+        theme: {light: 'default', dark: 'dark'},
+        options: {
+          maxTextSize: 10000,
+        },
       },
     }),
 };
