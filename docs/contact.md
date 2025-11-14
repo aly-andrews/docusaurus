@@ -2,7 +2,7 @@
 
 ## Get in Touch
 
-I'm best reached by email at aly.andrews@example.com or by phone at +613-223-2720. I'm based in Ottawa, Ontario and happy to discuss new opportunities and collaborations.
+I'm best reached by email at hello.alyanne@gmail.com. I'm based in Ottawa, Ontario and happy to discuss new opportunities and collaborations.
 
 ## Portfolio & Work
 
