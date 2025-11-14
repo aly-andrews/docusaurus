@@ -57,6 +57,14 @@
   --ifm-button-background-color: #4B2E83;
   --ifm-button-color: #FFFFFF;
   --ifm-button-border-color: #4B2E83;
+  
+  /* Admonition tip colors - override default green */
+  --ifm-alert-background-color: #FFFFFF;
+  --ifm-alert-border-color: #4B2E83;
+  --ifm-alert-color: #333333;
+  --ifm-color-info: #4B2E83;
+  --ifm-color-info-contrast-background: #FFFFFF;
+  --ifm-color-info-contrast-foreground: #4B2E83;
 }
 
 /* Dark mode - keeping similar but adjusted */
@@ -297,12 +305,6 @@ article {
 }
 
 /* Tip admonition styling - pop-out box with purple outline */
-/* Override Infima default tip colors */
-:root {
-  --ifm-alert-background-color: #FFFFFF;
-  --ifm-alert-border-color: var(--skio-dark-purple);
-  --ifm-alert-color: #333333;
-}
 
 .admonition.admonition-tip,
 .admonition--tip,
