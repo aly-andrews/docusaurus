@@ -2,7 +2,7 @@
 
 ## Get in Touch
 
-I'm best reached by email at hello.alyanne@gmail.com. I'm based in Ottawa, Ontario and happy to discuss new opportunities and collaborations.
+Contact me at hello.alyanne@gmail.com. I'm based in Ottawa, Ontario and happy to discuss new opportunities and collaborations.
 
 ## Portfolio & Work
 

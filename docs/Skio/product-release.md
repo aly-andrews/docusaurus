@@ -2,7 +2,7 @@
 **Skio Documentation | Product Release Documentation Plan**
 
 **Prepared by:** Alysa Andrews, Technical Content Writer  
-**Prepared for:** Katrina Feliciano, Technical Content Writer  
+**Prepared for:** Katrina Nguyen, Technical Content Writer  
 **Last updated:** November, 15 2025
 
 ---
