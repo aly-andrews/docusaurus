@@ -2,12 +2,11 @@
 
 A **shipping profile** is a set of shipping rules for specific products and locations. Skio allows you to create multiple shipping profiles tailored to specific selling plan groups, giving you flexibility to assign different shipping policies to different subscription types.
 
-**Video placeholder:** [How to set up a shipping profile in Skio]
-
 ![Video thumbnail: How to set up a shipping profile in Skio](/img/profile%201.png)
 
-**Tip**  
-To see more videos, visit our YouTube channel.
+:::tip
+To see more videos, visit our [Skio YouTube channel](https://www.youtube.com/@skiosubscriptions).
+:::
 
 **On this page**
 - [What is a shipping profile?](#what-is-a-shipping-profile)

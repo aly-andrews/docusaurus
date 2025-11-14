@@ -296,6 +296,26 @@ article {
   display: block;
 }
 
+/* Tip admonition styling - pop-out box */
+.admonition.admonition-tip {
+  background-color: #F5F0FF;
+  border-left: 4px solid var(--skio-dark-purple);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(75, 46, 131, 0.1);
+}
+
+.admonition.admonition-tip .admonition-heading {
+  color: var(--skio-dark-purple);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.admonition.admonition-tip .admonition-content {
+  color: #333333;
+}
+
 /* Sidebar category styling */
 .menu__list-item-collapsible {
   color: #333333;
