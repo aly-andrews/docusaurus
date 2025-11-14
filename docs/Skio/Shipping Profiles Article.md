@@ -4,7 +4,7 @@ A **shipping profile** is a set of shipping rules for specific products and loca
 
 **Video placeholder:** [How to set up a shipping profile in Skio]
 
-![Video thumbnail: How to set up a shipping profile in Skio](https://via.placeholder.com/800x450/4B2E83/FFFFFF?text=How+to+set+up+a+shipping+profile+in+Skio)
+![Video thumbnail: How to set up a shipping profile in Skio](/img/profile%201.png)
 
 **Tip**  
 To see more videos, visit our YouTube channel.
